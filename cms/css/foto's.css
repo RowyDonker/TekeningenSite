@@ -1,0 +1,42 @@
+.workMain{
+    width: 100%;
+    background-color: bisque;
+}
+.workBefore{
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+
+#workIMG{
+    float: left;
+    width: 30%;
+    height:400px;
+    margin-left: 2.5%;
+    margin-bottom: 1em;
+}
+#InGalleryIMG{
+   float: left;
+    width: 46%;
+    height:400px;
+    margin-left: 2.5%;
+    margin-bottom: 1em;
+    border: solid 3px grey;
+    
+}
+.leuk2{
+    text-align: center;
+}
+
+@media only screen and (max-width: 58.75rem){
+    
+   
+       #InGalleryIMG{
+        width: 100%;
+        margin-bottom: 20px;
+        
+    }
+}
+#h1work{
+text-align: center;
+}

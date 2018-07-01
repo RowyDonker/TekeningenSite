@@ -1,0 +1,83 @@
+body{
+background-color:antiquewhite;
+}
+
+#Login-Page{
+height: 240px;
+width: 400px;
+background-color: white;
+box-shadow: -15px 20px 4px grey;
+margin-top: 40px;
+border-radius: 20px;
+margin-left: 415px;
+border-top: solid  CornflowerBlue  30px;
+border-bottom: solid  CornflowerBlue   30px;
+border-left:solid CornflowerBlue 3px;
+border-right:solid CornflowerBlue 3px;
+}
+
+input {
+width: 200px;
+height: 30px;
+margin-left: 100px;
+background-color: gainsboro;
+border-radius: 4px;
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+#Usernametitle{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+margin-left: 155px;
+
+}
+
+#Passwordtitle{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+margin-left: 155px;
+
+}
+
+#loginbutton{
+height: 30px;
+width: 130px;
+background-color:  cornflowerblue;
+border: solid  cornflowerblue;
+border-radius: 20px;
+font-size: 20px;
+color: white;
+margin-left: 135px;
+margin-top: 15px;
+cursor: pointer;
+}
+#loginbutton:hover{
+background-color: skyblue;
+border: solid skyblue;
+transition: ease 0.5s
+}
+#ADMINLOGIN{
+position: absolute;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: -45px;
+margin-left: 140px;
+font-size: 18px;
+}
+.Home-Button{
+position: absolute;
+width: 20px;
+height: 20px;
+margin-top: -24px;
+margin-left: 5px;
+background-color: CornflowerBlue ;
+background-image: url(../images/home-512.png);
+}
+.Home-Button:hover{
+background-image: url(../images/home-white.png);
+}
+#Logged-In{
+height: 400px;
+width: 400px;
+cursor: pointer;
+}
